@@ -19,6 +19,8 @@ export const auth = defineAuth({
       //   clientId: secret('LOGINWITHAMAZON_CLIENT_ID'),
       //   clientSecret: secret('LOGINWITHAMAZON_CLIENT_SECRET'),
       // }
+      callbackUrls: [],
+      logoutUrls: [],
     },
   },
   /**
